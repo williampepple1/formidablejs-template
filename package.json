@@ -1,0 +1,36 @@
+{
+	"name": "@formidablejs/formidablejs",
+	"version": "0.0.1",
+	"description": "",
+	"author": "",
+	"private": true,
+	"license": "UNLICENSED",
+	"scripts": {
+		"dev": "node craftsman serve --dev",
+		"serve": "node craftsman serve",
+		"start": "internals start",
+		"build": "internals build",
+		"test": "jest --roots test",
+		"test:watch": "jest --roots test --watchAll"
+	},
+	"dependencies": {
+		"@bugsnag/js": "7.20.0",
+		"@formidablejs/bugsnag-plugin": "0.0.5",
+		"@formidablejs/framework": "0.27.0",
+		"@formidablejs/logger": "0.1.1",
+		"@formidablejs/mailer": "0.4.2",
+		"@formidablejs/queues": "^0.0.7",
+		"@formidablejs/scheduler": "0.2.2",
+		"@formidablejs/stubs": "0.5.2",
+		"@formidablejs/ts-ports": "0.4.4",
+		"imba": "2.0.0-alpha.235",
+		"imba-shell": "0.4.0",
+		"supertest": "6.3.4"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^8.3.1",
+		"@types/jest": "^29.5.11",
+		"@types/node": "^20.11.5",
+		"jest": "^29.7.0"
+	}
+}
